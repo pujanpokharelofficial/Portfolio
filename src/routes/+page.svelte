@@ -1,7 +1,6 @@
 <script>
-  import "../app.css";
+	import Background from "./background.svelte";
+
 </script>
 
-<p class="text-red-400">
-Hello world !!!
-</p>
+<Background />
