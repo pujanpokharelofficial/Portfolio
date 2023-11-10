@@ -1,5 +1,9 @@
 <script>
-import "../app.css";
+	import '../app.css';
+	import Nav from './global/nav.svelte';
+	import Footer from './global/footer.svelte';
 </script>
 
-<slot>Error while rendering the component</slot>
+<Nav />
+<slot>Error while rendering main layout.</slot>
+<Footer />
