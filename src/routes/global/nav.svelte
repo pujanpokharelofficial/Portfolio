@@ -2,9 +2,9 @@
 	let navlinks = {
 		Home: '/',
 		'About Me': '/#about',
-		Projects: '/#projects',
 		Honors: '/#honors',
 		Activities: '/#activities',
+		Projects: '/#projects',
 		'Contact Me': '/contacts'
 	};
 </script>
