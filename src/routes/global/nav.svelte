@@ -9,16 +9,16 @@
 	};
 </script>
 
-<nav>
+<nav class="h-[100px] w-full px-standard flex justify-between items-center">
 	<div class="logo">Pujan Pokhrel</div>
-	<div class="navlinks">
+	<div class="navlinks uppercase text-[14px]">
 		{#each Object.entries(navlinks) as [displayName, href]}
-			<a {href}> {displayName} </a>
+			<a class="gap-x-[20px]" {href}> {displayName} </a>
 		{/each}
 	</div>
 
-	<div class="downloadCV">
+	<div class="downloadCV flex w-max justify-center items-center">
 		<img src="/svg/download.svg" alt="download icon" />
-		download cv
+		<span> download cv </span>
 	</div>
 </nav>
