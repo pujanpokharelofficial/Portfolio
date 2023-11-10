@@ -12,7 +12,7 @@
 <nav
 	class="h-[100px] w-full px-standard flex justify-between items-center border-b-2 border-[#E9E9E9] fixed top-0 left-0 bg-white"
 >
-	<div class="logo text-[24px] font-bold">Pujan Pokhrel</div>
+	<div class="logo text-[24px] font-bold">Pujan Pokharel</div>
 	<div class="navlinks uppercase text-[14px] text-[#595959]">
 		{#each Object.entries(navlinks) as [displayName, href], index (displayName)}
 			<a class={index != 0 ? 'ml-[20px]' : ''} {href}> {displayName} </a>
