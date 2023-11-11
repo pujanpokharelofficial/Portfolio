@@ -19,7 +19,7 @@
 			</div>
 			<div class="buttons uppercase flex space-x-block items-center mt-block text-sub-info">
 				<a
-					href="/pdf/portfolio.pdf"
+					href="/pdf/resume.pdf"
 					download="Pujan Pokharel CV.pdf"
 					class="downloadCV flex w-max justify-center items-center cursor-pointer bg-blue-dark rounded-[4px] h-max px-[40px] py-standard"
 				>

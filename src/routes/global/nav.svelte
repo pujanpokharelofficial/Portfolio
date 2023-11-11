@@ -19,7 +19,7 @@
 		{/each}
 	</div>
 	<a
-		href="/pdf/portfolio.pdf"
+		href="/pdf/resume.pdf"
 		download="Pujan Pokharel CV.pdf"
 		class="downloadCV flex w-max justify-center items-center cursor-pointer"
 	>
