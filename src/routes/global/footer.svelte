@@ -12,7 +12,7 @@
 </script>
 
 <footer
-	class="fixed bottom-0 left-0 min-h-[300px] justify-between items-center p-block bg-gray-extra-light w-full flex"
+	class="mt-auto min-h-[300px] justify-between items-center p-block bg-gray-extra-light w-full flex"
 >
 	<div class="space-y-small">
 		<h1 class="logo text-title font-bold">Pujan Pokharel</h1>
