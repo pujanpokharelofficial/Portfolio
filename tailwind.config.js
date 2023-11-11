@@ -12,6 +12,7 @@ export default {
 				gray: '#656565',
 				'gray-light': '#E9E9E9',
 				'gray-dark': '#9E9E9E',
+				'gray-extra-light': '#F4F4F4',
 				orange: '#FF543E'
 			},
 			spacing: {
@@ -20,6 +21,15 @@ export default {
 				section: '100px',
 				small: '10px',
 				'v-small': '5px'
+			},
+			fontSize: {
+				important: '64px',
+				heading: '48px',
+				title: '24px',
+				'sub-title': '18px',
+				para: '16px',
+				info: '14px',
+				'sub-info': '12px'
 			}
 		}
 	},
