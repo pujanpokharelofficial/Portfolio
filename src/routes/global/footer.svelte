@@ -26,11 +26,21 @@
 	<div class="socials">
 		<p class="uppercase text-para text-black-light">connect with me at :</p>
 		<div class="icons flex mt-small space-x-small">
-			<img src="/images/twitter.png" alt="twitter-icon" />
-			<img src="/images/instagram.png" alt="instagram-icon" />
-			<img src="/images/facebook.png" alt="facebook-icon" />
-			<img src="/images/linkedin.png" alt="linkedin-icon" />
-			<img src="/images/youtube.png" alt="youtube-icon" />
+			<a href="https://www.facebook.com/OfficialPujanPokharel" target="_blank">
+				<img src="/images/facebook.png" alt="facebook-icon" />
+			</a>
+			<a href="https://www.linkedin.com/in/pujanpokharelofficial" target="_blank">
+				<img src="/images/linkedin.png" alt="linkedin-icon" />
+			</a>
+			<a href="https://twitter.com/pujanpokharel22" target="_blank">
+				<img src="/images/twitter.png" alt="twitter-icon" />
+			</a>
+			<a href="https://www.instagram.com/pujanpokharelofficial/" target="_blank">
+				<img src="/images/instagram.png" alt="instagram-icon" />
+			</a>
+			<a href="https://www.youtube.com/@PujanPokharelOfficial" target="_blank">
+				<img src="/images/youtube.png" alt="youtube-icon" />
+			</a>
 		</div>
 	</div>
 	<div class="links_container flex space-x-standard text-para text-black-light uppercase">
