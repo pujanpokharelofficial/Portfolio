@@ -12,14 +12,14 @@
 <nav
 	class="h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 bg-white"
 >
-	<div class="logo text-[24px] font-bold">Pujan Pokharel</div>
-	<div class="navlinks uppercase text-[14px] text-[#595959]">
+	<div class="logo text-title font-bold">Pujan Pokharel</div>
+	<div class="navlinks uppercase text-info text-black-light">
 		{#each Object.entries(navlinks) as [displayName, href], index (displayName)}
-			<a class={index != 0 ? 'ml-[20px]' : ''} {href}> {displayName} </a>
+			<a class={index != 0 ? 'ml-standard' : ''} {href}> {displayName} </a>
 		{/each}
 	</div>
 	<div class="downloadCV flex w-max justify-center items-center">
 		<img src="/svg/download.svg" alt="download icon" />
-		<span class="text-[#004994] uppercase text-[14px] ml-[10px]"> download cv </span>
+		<span class="text-blue-dark uppercase text-[14px] ml-[10px]"> download cv </span>
 	</div>
 </nav>
