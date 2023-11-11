@@ -18,8 +18,12 @@
 			<a class={index != 0 ? 'ml-standard' : ''} {href}> {displayName} </a>
 		{/each}
 	</div>
-	<div class="downloadCV flex w-max justify-center items-center">
+	<a
+		href="/pdf/portfolio.pdf"
+		download="Pujan Pokharel Portfolio.pdf"
+		class="downloadCV flex w-max justify-center items-center cursor-pointer"
+	>
 		<img src="/svg/download.svg" alt="download icon" />
 		<span class="text-blue-dark uppercase text-[14px] ml-[10px]"> download cv </span>
-	</div>
+	</a>
 </nav>
