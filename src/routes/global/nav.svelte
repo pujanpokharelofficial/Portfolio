@@ -10,7 +10,7 @@
 </script>
 
 <nav
-	class="h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 bg-white"
+	class="h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 bg-white z-50"
 >
 	<div class="logo text-title font-bold">Pujan Pokharel</div>
 	<div class="navlinks uppercase text-info text-black-light">
