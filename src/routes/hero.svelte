@@ -46,30 +46,41 @@
 
 	<!-- right section -->
 	<div class="right_container pr-block h-full bg-gray-extra-light w-[40%] relative">
-		<div class="image_group">
-			<div class="image" />
-
-			<a class="social_link" href="https://www.facebook.com/OfficialPujanPokharel" target="_blank">
+		<div class="image_group w-full h-full flex-1 relative">
+			<div class="image relative w-[50%] ml-[25%] mt-[5%] z-30 h-[50%] rounded-full" />
+			<a
+				class="social_link top-[40%] left-[20%] z-40 scale-125 -rotate-[19deg]"
+				href="https://www.facebook.com/OfficialPujanPokharel"
+				target="_blank"
+			>
 				<img src="/images/facebook.png" alt="facebook-icon" />
 			</a>
 			<a
-				class="social_link"
+				class="social_link top-[35%] left-[75%] z-20 scale-125 rotate-[21deg]"
 				href="https://www.linkedin.com/in/pujanpokharelofficial"
 				target="_blank"
 			>
 				<img src="/images/linkedin.png" alt="linkedin-icon" />
 			</a>
-			<a class="social_link" href="https://twitter.com/pujanpokharel22" target="_blank">
+			<a
+				class="social_link top-[30%] left-[18%] z-20 scale-125 -rotate-[28deg]"
+				href="https://twitter.com/pujanpokharel22"
+				target="_blank"
+			>
 				<img src="/images/twitter.png" alt="twitter-icon" />
 			</a>
 			<a
-				class="social_link"
+				class="social_link top-[25%] left-[75%] z-40 scale-125 -rotate-[12deg]"
 				href="https://www.instagram.com/pujanpokharelofficial/"
 				target="_blank"
 			>
 				<img src="/images/instagram.png" alt="instagram-icon" />
 			</a>
-			<img class="pattern" src="/svg/dotted vector.svg" alt="dotted-vector" />
+			<img
+				class="pattern absolute top-[45%] left-[50%]"
+				src="/svg/dotted vector.svg"
+				alt="dotted-vector"
+			/>
 		</div>
 		<div class="bottom_info absolute bottom-[10%] w-[70%] left-[15%] h-max flex flex-col">
 			<a
@@ -115,5 +126,29 @@
 		font-size: 16px;
 		font-weight: '500';
 	}
+	.image::after,
+	.image::before {
+		content: '';
+		height: 100%;
+		width: 100%;
+		background: url('/images/profile.jpg');
+		background-size: 150% 160%;
+		background-position: center center;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		border-radius: 3555px;
+		z-index: 30;
+	}
+	.image::before {
+		filter: blur(30px);
+		z-index: 20;
+		top: 35%;
+		left: 28%;
+		width: 70%;
+		height: 70%;
+	}
+	.social_link {
+		position: absolute;
+	}
 </style>
-
