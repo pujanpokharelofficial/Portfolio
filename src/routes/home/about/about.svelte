@@ -1,5 +1,13 @@
 <script>
-	import Header from '../global/header.svelte';
+	import Header from '../../global/header.svelte';
+	import Achievement from './achievement.svelte';
+
+	let achievements = {
+		'completed Activities': 20,
+		'national honors': 8,
+		'programs organized': 30,
+		'peoples helped': 500
+	};
 </script>
 
 <div class="main_container h-screen w-full flex flex-col space-y-block">
@@ -39,7 +47,12 @@
 			</div>
 
 			<div class="hall_of_frame">
-				<h1>Achivements</h1>
+				<h1>Achievements</h1>
+				<div class="achievements">
+					{#each Object.entries(achievements) as [title, count]}
+						<Achievement {title} {count} />
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>

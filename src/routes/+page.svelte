@@ -1,6 +1,6 @@
 <script>
 	import Hero from './home/hero.svelte';
-	import About from './home/about.svelte';
+	import About from './home/about/about.svelte';
 </script>
 
 <svelte:head>
