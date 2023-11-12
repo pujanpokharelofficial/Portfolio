@@ -1,38 +1,4 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Pujan Pokharel
+Hello , I am Pujan Pokharel, A techie at heart, I possess comprehensive knowledge of graphics design, website and mobile application development, digital marketing, and content writing. Highly skilled and motivated youth professional with a strong background in the tech field with a keen eye for aesthetics and a passion for technology, I am committed to delivering innovative solutions and driving results for clients. Seeking opportunities to utilise my diverse skill set and contribute to the success of a forward-thinking organisation. Along with this, I am a young activist organising workshops, sessions, Bootcamps, Keynote sessions and conferences sharing my knowledge and inspiring others  to embrace their own potential.  
+I am willing to take risks, explore innovative ideas, and venture into uncharted territories. I have a passion for fusing technology and innovation to help solve problems in the real world.
+  
