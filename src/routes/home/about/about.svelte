@@ -103,8 +103,11 @@
 		color: #2b2b2b;
 		font-size: 32px;
 		font-weight: '700';
+		pointer-events: none;
 	}
-
+	.hall_of_frame .title:after {
+		content: 'hall of frame';
+	}
 	.achievements {
 		grid-template-columns: repeat(2, minmax(250px, 350px));
 		grid-template-rows: repeat(2, 180px);
