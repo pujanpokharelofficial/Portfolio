@@ -3,7 +3,7 @@
 </script>
 
 <div class="main_container h-screen w-full flex flex-col space-y-block">
-	<Header title="About me" viewAll="/contacts" />
+	<Header title="About me" />
 	<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block" id="about">
 		<!-- left section -->
 		<div class="left_section relative border-gray-light border-r-2 w-[30%]">
