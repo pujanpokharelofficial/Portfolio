@@ -9,6 +9,7 @@ export default {
 				'blue-dark': '#004994',
 				'blue-medium': '#3771C8',
 				'blue-light': '#3D8EE2',
+				'blue-extra-light': 'rgb(61, 142, 226, 0.2)',
 				gray: '#656565',
 				'gray-light': '#E9E9E9',
 				'gray-dark': '#9E9E9E',

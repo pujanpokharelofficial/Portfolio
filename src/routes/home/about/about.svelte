@@ -28,7 +28,11 @@
 		<!-- Right section -->
 		<div class="right_section max-w-70% pr-block flex flex-col space-y-block items-center">
 			<div class="short_intro w-[80%]">
-				<h1 class="title uppercase text-blue-light font-black text-heading opacity-20">About Me</h1>
+				<h1
+					class="title tracking-widest uppercase text-blue-extra-light font-black text-heading relative max-w-max"
+				>
+					About Me
+				</h1>
 				<div class="description mt-standard text-black-light font-medium text-sub-title">
 					<p>
 						Hello , I am Pujan Pokharel, A techie at heart, I possess comprehensive knowledge of
@@ -50,7 +54,9 @@
 			</div>
 
 			<div class="hall_of_frame w-[80%]">
-				<h1 class="title uppercase text-blue-light font-black text-heading opacity-20">
+				<h1
+					class="title tracking-widest uppercase text-blue-extra-light font-black text-heading relative max-w-max"
+				>
 					Achievements
 				</h1>
 				<div class="achievements mt-standard grid gap-standard">
@@ -86,8 +92,17 @@
 		width: 70%;
 		height: 70%;
 	}
-	.right_section .title:nth-of-type(1) {
+	.short_intro .title:after,
+	.hall_of_frame .title:after {
 		content: 'Short Intro';
+		position: absolute;
+		left: 50%;
+		top: 12px;
+		transform: translateX(-50%);
+		width: max-content;
+		color: #2b2b2b;
+		font-size: 32px;
+		font-weight: '700';
 	}
 
 	.achievements {
