@@ -26,7 +26,8 @@
 		<img src="/svg/{icon}.svg" alt="star svg" />
 	</div>
 	<div
-		class="details mt-small {!align_right && 'col-start-1 col-end-2 text-right'}  {align_right &&
+		class="details mt-small max-w-[500px] {!align_right &&
+			'col-start-1 col-end-2 text-right justify-self-end'}  {align_right &&
 			'col-start-3 col-end-4 text-left'}"
 	>
 		<div class="title uppercase font-bold text-title">{title}</div>

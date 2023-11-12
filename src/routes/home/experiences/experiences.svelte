@@ -9,7 +9,8 @@
 			duration: '10hrs',
 			title: 'Testing the comp',
 			location: 'Butwal 11, Rangasala ',
-			description: 'This should be quite long. But I don;t know what to write',
+			description:
+				'This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write',
 			type: 'new-position'
 		},
 
@@ -18,7 +19,8 @@
 			duration: '10hrs',
 			title: 'Testing the comp',
 			location: 'Butwal 11, Rangasala ',
-			description: 'This should be quite long. But I don;t know what to write',
+			description:
+				'This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write',
 			type: 'promotion'
 		},
 
