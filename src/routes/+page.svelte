@@ -17,7 +17,7 @@
 	<meta name="keyword" content="portfolio, pujan, pujan Pokharel" />
 </svelte:head>
 
-<div class="mt-section flex flex-col space-y-section">
+<div class="mt-section flex flex-col space-y-section mb-section">
 	<Hero />
 	<About />
 </div>
