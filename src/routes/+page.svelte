@@ -1,6 +1,7 @@
 <script>
 	import Hero from './home/hero.svelte';
 	import About from './home/about/about.svelte';
+	import Experiences from './home/experiences/experiences.svelte';
 </script>
 
 <svelte:head>
@@ -20,4 +21,5 @@
 <div class="mt-section flex flex-col space-y-section mb-section">
 	<Hero />
 	<About />
+	<Experiences />
 </div>
