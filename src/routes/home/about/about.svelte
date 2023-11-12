@@ -10,11 +10,14 @@
 	};
 </script>
 
-<div class="main_container h-screen w-full flex flex-col space-y-block">
+<div class="main_container min-h-screen w-full flex flex-col space-y-block">
 	<Header title="About me" viewAll="/contacts" />
-	<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block" id="about">
+	<div
+		class="content border-gray-light border-b-2 h-full w-full flex space-x-block pb-block"
+		id="about"
+	>
 		<!-- left section -->
-		<div class="left_section relative border-gray-light border-r-2 w-[30%]">
+		<div class="left_section relative border-gray-light border-r-2 min-w-[30%]">
 			<div class="image relative w-[60%] ml-[25%] mt-[25%] z-30 h-[50%]" />
 			<img
 				class="pattern absolute top-[50%] left-[-10%]"
@@ -23,10 +26,10 @@
 			/>
 		</div>
 		<!-- Right section -->
-		<div class="right_section">
-			<div class="short_intro">
-				<h1>About Me</h1>
-				<div class="description">
+		<div class="right_section max-w-70% pr-block flex flex-col space-y-block items-center">
+			<div class="short_intro w-[80%]">
+				<h1 class="title uppercase text-blue-light font-black text-heading opacity-20">About Me</h1>
+				<div class="description mt-standard text-black-light font-medium text-sub-title">
 					<p>
 						Hello , I am Pujan Pokharel, A techie at heart, I possess comprehensive knowledge of
 						graphics design, website and mobile application development, digital marketing, and
@@ -38,7 +41,7 @@
 						organising workshops, sessions, Bootcamps, Keynote sessions and conferences sharing my
 						knowledge and inspiring others  to embrace their own potential.
 					</p>
-					<p>
+					<p class="mt-small">
 						I am willing to take risks, explore innovative ideas, and venture into uncharted
 						territories. I have a passion for fusing technology and innovation to help solve
 						problems in the real world.
@@ -46,9 +49,11 @@
 				</div>
 			</div>
 
-			<div class="hall_of_frame">
-				<h1>Achievements</h1>
-				<div class="achievements">
+			<div class="hall_of_frame w-[80%]">
+				<h1 class="title uppercase text-blue-light font-black text-heading opacity-20">
+					Achievements
+				</h1>
+				<div class="achievements mt-standard grid gap-standard">
 					{#each Object.entries(achievements) as [title, count]}
 						<Achievement {title} {count} />
 					{/each}
@@ -80,5 +85,13 @@
 		left: 28%;
 		width: 70%;
 		height: 70%;
+	}
+	.right_section .title:nth-of-type(1) {
+		content: 'Short Intro';
+	}
+
+	.achievements {
+		grid-template-columns: repeat(2, minmax(250px, 350px));
+		grid-template-rows: repeat(2, 180px);
 	}
 </style>
