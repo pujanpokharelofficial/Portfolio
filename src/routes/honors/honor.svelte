@@ -14,7 +14,7 @@
 	/>
 
 	<div
-		class="p-standard w-full h-max absolute bottom-[-30%] flex space-y-small flex-col z-20 group-hover:bottom-0"
+		class="information p-standard w-full h-max absolute bottom-[-30%] flex space-y-small flex-col z-20 group-hover:bottom-0"
 	>
 		<div class="title uppercase text-title text-white font-bold">{title}</div>
 		<div
@@ -27,7 +27,9 @@
 				{date}
 			</p>
 		</div>
-		<p class="description font-medium text-white text-para opacity-0 group-hover:opacity-100">
+		<p
+			class="description font-medium text-white text-para opacity-0 group-hover:opacity-100 transition-all"
+		>
 			{description}
 		</p>
 	</div>
@@ -39,5 +41,8 @@
 	}
 	.honor:hover .gradient-back {
 		background: linear-gradient(0deg, rgba(0, 48, 98, 0.62) 18.51%, rgba(0, 0, 0, 0.32) 100%);
+	}
+	.information {
+		transition: all 0.5s ease-in-out;
 	}
 </style>
