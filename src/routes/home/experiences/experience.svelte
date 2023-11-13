@@ -12,7 +12,7 @@
 	let icon = iconOptions[type];
 </script>
 
-<div class="container grid gap-[30px]">
+<div class="main_container grid gap-[30px]">
 	<div
 		class="date uppercase text-black-light font-semibold text-fara mt-[15px] {!align_right &&
 			'col-start-3 col-end-4'} {align_right && 'col-start-1 col-end-2 text-right'}"
@@ -42,7 +42,7 @@
 </div>
 
 <style>
-	.container {
+	.main_container {
 		height: max-content;
 		width: 80%;
 		grid-template-columns: 1fr 55px 1fr;
