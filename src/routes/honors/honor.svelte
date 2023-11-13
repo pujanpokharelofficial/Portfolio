@@ -43,6 +43,6 @@
 		background: linear-gradient(0deg, rgba(0, 48, 98, 0.62) 18.51%, rgba(0, 0, 0, 0.32) 100%);
 	}
 	.information {
-		transition: all 0.5s ease-in-out;
+		transition: all 0.25s ease-in-out;
 	}
 </style>
