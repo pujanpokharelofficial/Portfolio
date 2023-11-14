@@ -3,6 +3,7 @@
 	import About from './home/about/about.svelte';
 	import Experiences from './home/experiences/experiences.svelte';
 	import Honors from './home/honors.svelte';
+	import Activities from './home/activities.svelte';
 </script>
 
 <svelte:head>
@@ -24,4 +25,5 @@
 	<About />
 	<Experiences />
 	<Honors />
+	<Activities />
 </div>
