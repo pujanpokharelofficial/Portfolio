@@ -3,7 +3,10 @@
 	import Header from '../global/header.svelte';
 </script>
 
-<div class="main_container">
+<div class="main_container min-h-screen">
 	<Header title="activities" viewAll="/activities" />
-	<Activity />
+	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
+		<Activity />
+		<Activity />
+	</div>
 </div>
