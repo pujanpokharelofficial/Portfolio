@@ -7,6 +7,6 @@
 	<Header title="activities" viewAll="/activities" />
 	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
 		<Activity />
-		<Activity />
+		<Activity align_right />
 	</div>
 </div>
