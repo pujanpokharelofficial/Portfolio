@@ -10,7 +10,7 @@
 <div class="main_container grid h-[500px] max-w-[1500px]">
 	<div
 		class="{(align_right && 'txt_content_right') ||
-			'txt_content'} bg-gray-light flex flex-col space-y-standard"
+			'txt_content'} bg-gray-light flex flex-col space-y-small"
 	>
 		<h1 class="title font-medium text-title text-black-medium">{title}</h1>
 		<div class="location_date font-medium text-info">

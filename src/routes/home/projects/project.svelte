@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="project w-full h-full p-standard rounded-md overflow-hidden border-[1px] border-gray-light group hover:bg-gray-extra-light hover:border-gray-dark"
+	class="project p-standard rounded-md overflow-hidden border-[1px] border-gray-light group hover:bg-gray-extra-light hover:border-gray-dark"
 >
 	<div class="icon_link flex justify-between">
 		<img src={icon} alt="blog-Icon" class="h-[100px] w-auto" />

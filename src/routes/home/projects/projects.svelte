@@ -64,7 +64,7 @@
 
 <div class="main_container">
 	<Header title="projects" />
-	<div class="projects p-block grid gap-standard">
+	<div class="projects p-block grid gap-standard justify-center">
 		{#each projects as project}
 			<Project {project} />
 		{/each}
@@ -73,7 +73,7 @@
 
 <style>
 	.projects {
-		grid-template-rows: 300px 300px;
 		grid-template-columns: repeat(auto-fit, 430px);
+		grid-template-rows: repeat(2, 300px);
 	}
 </style>
