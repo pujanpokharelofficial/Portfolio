@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Header from '../global/header.svelte';
-	import Activities from '../home/activities.svelte';
 	import Activity from './activity.svelte';
 	import type { Tactivities } from './type.ts';
 
@@ -34,7 +33,9 @@
 
 <div class="main_container mt-[200px]">
 	<Header title="activities" />
-	{#each activities as activity, index (activity)}
-		<Activity {Activity} align_right={index % 2 == 0} />
-	{/each}
+	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
+		{#each activities as activity, index (activity)}
+			<Activity {activity} align_right={index % 2 == 0} />
+		{/each}
+	</div>
 </div>
