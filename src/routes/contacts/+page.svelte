@@ -14,7 +14,13 @@
 
 			<div class="input">
 				<div class="lable">phone number</div>
-				<input type="number" name="phone_number" id="phone_number" placeholder="Ex: 986677****" />
+				<input
+					type="number"
+					name="phone_number"
+					id="phone_number"
+					placeholder="Ex: 986677****"
+					class="[appearance:textfield]"
+				/>
 			</div>
 
 			<div class="input">
