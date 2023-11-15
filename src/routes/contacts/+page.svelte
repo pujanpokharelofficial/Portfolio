@@ -28,6 +28,8 @@
 				<textarea
 					name="Message"
 					id="Message"
+					rows="10"
+					class="resize-none"
 					placeholder="Ex: I really love what you are doing. Keep doing all these things."
 				/>
 			</div>
