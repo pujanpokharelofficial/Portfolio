@@ -1,10 +1,9 @@
 <script>
 	//@ts-nocheck
-	import { onMount } from 'svelte';
-
 	import Scrolltracker from '../../../scrolltracker.svelte';
 	import Header from '../../global/header.svelte';
 	import Achievement from './achievement.svelte';
+	import { activeNav } from '../../../store';
 
 	let achievements = {
 		'completed Activities': 20,
@@ -14,12 +13,15 @@
 	};
 </script>
 
-<Scrolltracker let:intersecting toObserve={'#about'} top="-400">
-	<div
-		class="main_container min-h-screen w-full flex flex-col space-y-block opacity-0 {intersecting &&
-			'opacity-100'}"
-		id="about"
-	>
+<Scrolltracker
+	toObserve={'#about'}
+	top="-600"
+	action={() => {
+		activeNav.update(() => 'about me');
+		console.log('Yeah !!! I am working.');
+	}}
+>
+	<div class="main_container min-h-screen w-full flex flex-col space-y-block" id="about">
 		<Header title="About me" />
 		<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block pb-block">
 			<!-- left section -->

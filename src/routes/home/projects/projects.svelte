@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Scrolltracker from '../../../scrolltracker.svelte';
+	import { activeNav } from '../../../store';
 	import Header from '../../global/header.svelte';
 	import Project from './project.svelte';
 	import type { Tproject } from './type.ts';
@@ -62,14 +64,22 @@
 	];
 </script>
 
-<div class="main_container" id="projects">
-	<Header title="projects" />
-	<div class="projects p-block grid gap-standard justify-center">
-		{#each projects as project}
-			<Project {project} />
-		{/each}
+<Scrolltracker
+	toObserve={'#projects'}
+	top="-600"
+	action={() => {
+		activeNav.update(() => 'projects');
+	}}
+>
+	<div class="main_container" id="projects">
+		<Header title="projects" />
+		<div class="projects p-block grid gap-standard justify-center">
+			{#each projects as project}
+				<Project {project} />
+			{/each}
+		</div>
 	</div>
-</div>
+</Scrolltracker>
 
 <style>
 	.projects {

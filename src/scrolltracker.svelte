@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	export let toObserve;
 	let intersecting = false;
-
+	export let action = () => {};
 	export let bottom = 0,
 		left = 0,
 		top = 0,
@@ -17,14 +17,15 @@
 		const observer = new IntersectionObserver(
 			(entries) => {
 				intersecting = entries[0].isIntersecting;
-				console.log(intersecting);
+				if (intersecting) action();
 			},
 			{ rootMargin: `${bottom}px ${left}px ${top}px ${right}px` }
 		);
 
-		console.log(container);
 		observer.observe(container);
-		return () => observer.unobserve(toObserve);
+		return () => {
+			observer.unobserve(container);
+		};
 	});
 </script>
 

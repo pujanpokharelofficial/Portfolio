@@ -2,6 +2,8 @@
 	import Activity from '../activities/activity.svelte';
 	import Header from '../global/header.svelte';
 	import type { Tactivities } from '../activities/type.ts';
+	import Scrolltracker from '../../scrolltracker.svelte';
+	import { activeNav } from '../../store';
 	let activities: Tactivities[] = [
 		{
 			title: 'Some test activity',
@@ -30,11 +32,19 @@
 	];
 </script>
 
-<div class="main_container min-h-screen" id="activities">
-	<Header title="activities" viewAll="/activities" />
-	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
-		{#each activities as activity, index (activity)}
-			<Activity {activity} align_right={index % 2 == 0} />
-		{/each}
+<Scrolltracker
+	toObserve={'#activities'}
+	top="-600"
+	action={() => {
+		activeNav.update(() => 'activities');
+	}}
+>
+	<div class="main_container min-h-screen" id="activities">
+		<Header title="activities" viewAll="/activities" />
+		<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
+			{#each activities as activity, index (activity)}
+				<Activity {activity} align_right={index % 2 == 0} />
+			{/each}
+		</div>
 	</div>
-</div>
+</Scrolltracker>

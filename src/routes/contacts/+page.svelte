@@ -1,17 +1,19 @@
 <script>
+	// @ts-nocheck
 	import { onMount } from 'svelte';
 	import { activeNav } from '../../store';
-
+	let main_container;
 	onMount(() => {
-		activeNav.update((current) => {
-			console.log(current);
+		activeNav.update(() => {
 			return 'contact me';
 		});
+		main_container.scrollIntoView();
 	});
 </script>
 
 <div
 	class="main_container mt-[100px] p-block max-w-[800px] min-h-screen flex space-y-block flex-col m-auto"
+	bind:this={main_container}
 >
 	<div class="content_section">
 		<h1 class="title">Send Message</h1>

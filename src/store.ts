@@ -1,3 +1,5 @@
-import { writable } from "svelte/store";
+import { writable, type Writable } from "svelte/store";
 
-export const activeNav = writable("home")
+type navItem = "home" | 'about me' | 'honors' | 'activities' | 'projects' | 'contact me'
+
+export const activeNav: Writable<navItem> = writable("home")
