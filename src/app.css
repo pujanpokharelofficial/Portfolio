@@ -8,4 +8,5 @@
 
 *, *::before, *::after{
     font-family: 'Inter', sans-serif; 
+    scroll-behavior: smooth;
 }

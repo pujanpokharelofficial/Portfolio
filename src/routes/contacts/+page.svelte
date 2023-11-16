@@ -1,4 +1,13 @@
 <script>
+	import { onMount } from 'svelte';
+	import { activeNav } from '../../store';
+
+	onMount(() => {
+		activeNav.update((current) => {
+			console.log(current);
+			return 'contact me';
+		});
+	});
 </script>
 
 <div

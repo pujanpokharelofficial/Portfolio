@@ -8,6 +8,10 @@
 		projects: '/#projects',
 		'contact me': '/contacts'
 	};
+
+	function updateNavActive(activeItem) {
+		activeNav.update(() => activeItem);
+	}
 </script>
 
 <nav
@@ -20,6 +24,7 @@
 				class={(displayName == $activeNav && 'text-blue-dark font-bold') ||
 					'text-black-light font-medium'}
 				{href}
+				on:click={() => updateNavActive(displayName)}
 			>
 				{displayName}
 			</a>
