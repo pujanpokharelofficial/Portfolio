@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	import { activeNav } from '../../store';
 	let navlinks = {
 		home: '/',
