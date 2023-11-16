@@ -1,11 +1,12 @@
 <script>
+	import { activeNav } from '../../store';
 	let navlinks = {
-		Home: '/',
-		'About Me': '/#about',
-		Honors: '/#honors',
-		Activities: '/#activities',
-		Projects: '/#projects',
-		'Contact Me': '/contacts'
+		home: '/',
+		'about me': '/#about',
+		honors: '/#honors',
+		activities: '/#activities',
+		projects: '/#projects',
+		'contact me': '/contacts'
 	};
 </script>
 
@@ -13,9 +14,15 @@
 	class="nav h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 z-50"
 >
 	<div class="logo text-title font-bold">Pujan Pokharel</div>
-	<div class="navlinks uppercase text-info text-black-light">
-		{#each Object.entries(navlinks) as [displayName, href], index (displayName)}
-			<a class={index != 0 ? 'ml-standard' : ''} {href}> {displayName} </a>
+	<div class="navlinks uppercase text-info text-black-light flex space-x-standard">
+		{#each Object.entries(navlinks) as [displayName, href]}
+			<a
+				class={(displayName == $activeNav && 'text-blue-dark font-bold') ||
+					'text-black-light font-medium'}
+				{href}
+			>
+				{displayName}
+			</a>
 		{/each}
 	</div>
 	<a
