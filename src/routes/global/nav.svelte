@@ -4,6 +4,7 @@
 	let navlinks = {
 		home: '/',
 		'about me': '/#about',
+		experiences: '/#experiences',
 		honors: '/#honors',
 		activities: '/#activities',
 		projects: '/#projects',
