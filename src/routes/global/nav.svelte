@@ -10,7 +10,7 @@
 </script>
 
 <nav
-	class="h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 bg-white z-50"
+	class="nav h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 z-50"
 >
 	<div class="logo text-title font-bold">Pujan Pokharel</div>
 	<div class="navlinks uppercase text-info text-black-light">
@@ -27,3 +27,10 @@
 		<span class="text-blue-dark uppercase text-[14px] ml-[10px]"> download cv </span>
 	</a>
 </nav>
+
+<style>
+	nav {
+		background: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(20px);
+	}
+</style>
