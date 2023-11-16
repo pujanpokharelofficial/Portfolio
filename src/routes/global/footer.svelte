@@ -2,7 +2,8 @@
 	let firstColLinks = {
 		Home: '/',
 		'About Me': '/#about',
-		Honors: '/#honors'
+		Honors: '/#honors',
+		experiences: '/#experiences'
 	};
 	let secondColLinks = {
 		Activities: '/#activities',
