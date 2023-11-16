@@ -30,7 +30,7 @@
 	];
 </script>
 
-<div class="main_container min-h-screen">
+<div class="main_container min-h-screen" id="activities">
 	<Header title="activities" viewAll="/activities" />
 	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
 		{#each activities as activity, index (activity)}

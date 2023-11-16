@@ -62,7 +62,7 @@
 	];
 </script>
 
-<div class="main_container">
+<div class="main_container" id="projects">
 	<Header title="projects" />
 	<div class="projects p-block grid gap-standard justify-center">
 		{#each projects as project}

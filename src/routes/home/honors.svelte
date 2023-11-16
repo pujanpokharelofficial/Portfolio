@@ -63,7 +63,7 @@
 	];
 </script>
 
-<div class="main_container min-h-screen pb-block">
+<div class="main_container min-h-screen pb-block" id="honors">
 	<Header title="Honors" viewAll="/honors" />
 
 	<div class="honors grid gap-standard w-full p-block justify-center">
