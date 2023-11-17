@@ -8,8 +8,8 @@
 </script>
 
 <Scrolltracker
-	toObserve={'#about'}
-	top="-600"
+	toObserve={'#home'}
+	top="0"
 	action={() => {
 		activeNav.update(() => 'home');
 	}}

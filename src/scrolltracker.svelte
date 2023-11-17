@@ -23,9 +23,6 @@
 		);
 
 		observer.observe(container);
-		return () => {
-			observer.unobserve(container);
-		};
 	});
 </script>
 

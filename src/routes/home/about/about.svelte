@@ -18,7 +18,6 @@
 	top="-600"
 	action={() => {
 		activeNav.update(() => 'about me');
-		console.log('Yeah !!! I am working.');
 	}}
 >
 	<div class="main_container min-h-screen w-full flex flex-col space-y-block" id="about">

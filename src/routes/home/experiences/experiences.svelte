@@ -3,47 +3,10 @@
 	import { activeNav } from '../../../store';
 	import Header from '../../global/header.svelte';
 	import Experience from './experience.svelte';
-	import type { Texperience } from './type.ts';
 
-	let experiences: Texperience[] = [
-		{
-			date: '13th may 1901',
-			duration: '10hrs',
-			title: 'Testing the comp',
-			location: 'Butwal 11, Rangasala ',
-			description:
-				'This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write',
-			type: 'new-position'
-		},
+	import data from '$lib/data/experiences.json';
 
-		{
-			date: '13th may 1901',
-			duration: '10hrs',
-			title: 'Testing the comp',
-			location: 'Butwal 11, Rangasala ',
-			description:
-				'This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write This should be quite long. But I don;t know what to write',
-			type: 'promotion'
-		},
-
-		{
-			date: '13th may 1901',
-			duration: '10hrs',
-			title: 'Testing the comp',
-			location: 'Butwal 11, Rangasala ',
-			description: 'This should be quite long. But I don;t know what to write',
-			type: 'award'
-		},
-
-		{
-			date: '13th may 1901',
-			duration: '10hrs',
-			title: 'Testing the comp',
-			location: 'Butwal 11, Rangasala ',
-			description: 'This should be quite long. But I don;t know what to write',
-			type: 'new-position'
-		}
-	];
+	$: experiences = data;
 </script>
 
 <Scrolltracker
