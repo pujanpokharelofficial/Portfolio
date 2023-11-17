@@ -1,35 +1,11 @@
 <script lang="ts">
 	import Activity from '../activities/activity.svelte';
 	import Header from '../global/header.svelte';
-	import type { Tactivities } from '../activities/type.ts';
 	import Scrolltracker from '../../scrolltracker.svelte';
 	import { activeNav } from '../../store';
-	let activities: Tactivities[] = [
-		{
-			title: 'Some test activity',
-			description:
-				'Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work.',
-			date: '13th jan 2021',
-			image: '/images/honors.jpg',
-			location: 'Kapilbastu, aashish ko ghar'
-		},
-		{
-			title: 'Some test activity',
-			description:
-				'Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work.',
-			date: '13th jan 2021',
-			image: '/images/honors.jpg',
-			location: 'Kapilbastu, aashish ko ghar'
-		},
-		{
-			title: 'Some test activity',
-			description:
-				'Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work.',
-			date: '13th jan 2021',
-			image: '/images/honors.jpg',
-			location: 'Kapilbastu, aashish ko ghar'
-		}
-	];
+	import data from '$lib/data/activities.json';
+
+	$: activities = data;
 </script>
 
 <Scrolltracker
