@@ -3,65 +3,10 @@
 	import { activeNav } from '../../../store';
 	import Header from '../../global/header.svelte';
 	import Project from './project.svelte';
-	import type { Tproject } from './type.ts';
-	let projects: Tproject[] = [
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		},
-		{
-			title: 'Highlighter',
-			description:
-				'This is the greatest applicaiton of all time. You will never regreat what you get from this application.',
-			icon: '/svg/blog-small.svg',
-			link: 'https://github.com/sarojregmi200/Highlighter'
-		}
-	];
+
+	import data from '$lib/data/projects.json';
+
+	$: projects = data;
 </script>
 
 <Scrolltracker
