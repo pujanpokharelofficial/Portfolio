@@ -9,6 +9,15 @@
 		});
 		main_container.scrollIntoView();
 	});
+	let email = '',
+		phone_number,
+		message = '';
+
+	function handleMessageSubmission(e) {
+		e.preventDefault();
+		if (email == '' || phone_number == '' || message == '') return;
+		console.log({});
+	}
 </script>
 
 <div
@@ -17,10 +26,21 @@
 >
 	<div class="content_section">
 		<h1 class="title">Send Message</h1>
-		<div class="inputs flex flex-col space-y-standard pt-small">
+		<form
+			method="post"
+			on:submit={handleMessageSubmission}
+			class="inputs flex flex-col space-y-standard pt-small"
+		>
 			<div class="input">
 				<div class="lable">email</div>
-				<input type="email" name="email" id="email" placeholder="Ex: yourname@domain.com" />
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Ex: yourname@domain.com"
+					bind:value={email}
+					required
+				/>
 			</div>
 
 			<div class="input">
@@ -31,6 +51,8 @@
 					id="phone_number"
 					placeholder="Ex: 986677****"
 					class="[appearance:textfield]"
+					bind:value={phone_number}
+					required
 				/>
 			</div>
 
@@ -42,15 +64,18 @@
 					rows="10"
 					class="resize-none"
 					placeholder="Ex: I really love what you are doing. Keep doing all these things."
+					bind:value={message}
+					required
 				/>
 			</div>
 
-			<div
+			<button
+				type="submit"
 				class="send_message w-max h-max px-standard py-[15px] rounded-[2px] uppercase font-bold text-info text-white bg-blue-dark"
 			>
 				send Message
-			</div>
-		</div>
+			</button>
+		</form>
 	</div>
 	<div class="content_section">
 		<h1 class="title">Socials</h1>
