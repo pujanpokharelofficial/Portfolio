@@ -1,6 +1,7 @@
 import { EMAIL } from "$env/static/private";
 import transporter from "$lib/server/emailService";
 import type { Actions } from "@sveltejs/kit"
+
 export const actions = {
     sendMessage: async ({ request }) => {
         try {
@@ -23,7 +24,10 @@ export const actions = {
                 html,
             }
 
-            send_email(email_message)
+            await send_email(email_message)
+            return {
+                success: "Your message is sent successfully"
+            }
         } catch (e) {
             throw new Error(`Error occured while sending your message: \n ${e}`);
         }

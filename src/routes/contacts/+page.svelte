@@ -11,6 +11,7 @@
 		});
 		main_container.scrollIntoView();
 	});
+	export let form;
 </script>
 
 <div
@@ -66,6 +67,9 @@
 			>
 				send Message
 			</button>
+			<p class={form?.success ? '' : ''}>
+				{form?.success || form?.error || ''}
+			</p>
 		</form>
 	</div>
 	<div class="content_section">
