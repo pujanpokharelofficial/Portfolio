@@ -23,7 +23,7 @@
 	<div class="navlinks uppercase text-info text-black-light flex space-x-standard">
 		{#each Object.entries(navlinks) as [displayName, href]}
 			<a
-				class={(displayName == $activeNav && 'text-blue-dark font-bold') ||
+				class={(displayName == $activeNav && 'text-blue-dark font-medium') ||
 					'text-black-light font-medium'}
 				{href}
 				on:click={() => updateNavActive(displayName)}
