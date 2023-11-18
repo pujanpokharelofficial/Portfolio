@@ -2,6 +2,8 @@
 	// @ts-nocheck
 	import { onMount } from 'svelte';
 	import { activeNav } from '../../store';
+	import { enhance } from '$app/forms';
+
 	let main_container;
 	onMount(() => {
 		activeNav.update(() => {
@@ -9,15 +11,6 @@
 		});
 		main_container.scrollIntoView();
 	});
-	let email = '',
-		phone_number,
-		message = '';
-
-	function handleMessageSubmission(e) {
-		e.preventDefault();
-		if (email == '' || phone_number == '' || message == '') return;
-		console.log({});
-	}
 </script>
 
 <div
@@ -28,8 +21,9 @@
 		<h1 class="title">Send Message</h1>
 		<form
 			method="post"
-			on:submit={handleMessageSubmission}
+			action="?/sendMessage"
 			class="inputs flex flex-col space-y-standard pt-small"
+			use:enhance
 		>
 			<div class="input">
 				<div class="lable">email</div>
@@ -38,7 +32,6 @@
 					name="email"
 					id="email"
 					placeholder="Ex: yourname@domain.com"
-					bind:value={email}
 					required
 				/>
 			</div>
@@ -51,7 +44,6 @@
 					id="phone_number"
 					placeholder="Ex: 986677****"
 					class="[appearance:textfield]"
-					bind:value={phone_number}
 					required
 				/>
 			</div>
@@ -64,7 +56,6 @@
 					rows="10"
 					class="resize-none"
 					placeholder="Ex: I really love what you are doing. Keep doing all these things."
-					bind:value={message}
 					required
 				/>
 			</div>
