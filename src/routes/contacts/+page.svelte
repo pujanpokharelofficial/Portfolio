@@ -51,8 +51,8 @@
 			<div class="input">
 				<div class="lable">Message</div>
 				<textarea
-					name="Message"
-					id="Message"
+					name="message"
+					id="message"
 					rows="10"
 					class="resize-none"
 					placeholder="Ex: I really love what you are doing. Keep doing all these things."
