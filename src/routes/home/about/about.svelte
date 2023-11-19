@@ -24,7 +24,7 @@
 		<Header title="About me" />
 		<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block pb-block">
 			<!-- left section -->
-			<div class="left_section relative border-gray-light border-r-2 min-w-[30%]">
+			<div class="left_section relative border-gray-light border-r-2 w-[30%] min-w-[450px]">
 				<div class="image relative w-[300px] ml-[25%] mt-[25%] z-30 h-[450px]" />
 				<img
 					class="pattern absolute top-[50%] left-[-10%]"
