@@ -1,17 +1,75 @@
 [
-    {
-		"title": "Gold Medalist at National Hackathon",
-		"date": "27th december 2021",
-		"location": "devinagar chaupari, butwal",
-		"description": "A National level Hackathon “ Deltathon” organised by Purbanchal University. This was a 24 hour hackathon with 30+ teams competing against each other. This was also my first physical hackathon with great experience. I won the title of 'National Hackathon'",
-		"image": "/images/hack_1.jpg"
-	},
-	{
-		"title": "hero of the conference",
-		"date": "27th december 2021",
-		"location": "Purbanchal University, Dharan",
-		"description": "I was awarded with this award for my extra ordinary works and errors in all the things that i have done for the one who game me those awards they are tryly appriciative of the work",
-		"image": "/images/honors.jpg"
-	}
+  {
+    "title": "Gold Medalist at National Hackathon",
+    "date": "27th december 2021",
+    "location": "devinagar chaupari, butwal",
+    "description": "A National level Hackathon “ Deltathon” organised by Purbanchal University. This was a 24 hour hackathon with 30+ teams competing against each other. This was also my first physical hackathon with great experience. I won the title of 'National Hackathon'",
+    "image": "/images/hon_1.jpg"
+  },
 
+  {
+    "title": "Winner at Clash of Codes",
+    "date": "27th december 2021",
+    "location": "KMC, Kathmandu",
+    "description": "A competition organised by Kathmandu Model College Computer Club. I got a great chance to represent my school in this event and I got a winning trophy along with a certificate",
+    "image": "/images/hon_33.jpg"
+  },
+
+  {
+    "title": "President of the year",
+    "date": "27th december 2021",
+    "location": "Kathmandu",
+    "description": "I was awarded with president of the year for a great contribution to a club and also got a club Citations from Rotary International during my tenure.",
+    "image": "/images/hon_3.jpg"
+  },
+
+  {
+    "title": "Bronze Medal at Province Level Web development Competition",
+    "date": "27th december 2021",
+    "location": "Rupandehi",
+    "description": "This was a province level competition organised by Computer Association of Nepal -CAN. There were around 30 individuals competing for the title in 5 hours of coding. Then a presentation session demonstrating our project. I got bronze medal there during my freshman year in highschool that was also a good initial achievement that encouraged me to do more in the coming days.",
+    "image": "/images/hon_4.jpg"
+  },
+  {
+    "title": "Winner at Web Design",
+    "date": "27th december 2021",
+    "location": "KMC, Kathmandu",
+    "description": "A competition organised by Kathmandu Model College Computer Club and I won the competition.I got a great chance to represent my school in this event. .",
+    "image": "/images/hon_34.jpg"
+  },
+  {
+    "title": "Best Community Impact Project ",
+    "date": "27th december 2021",
+    "location": "Butwal International Convention Center ",
+    "description": "This was awarded by Butwal Sub-Metropolitan City for a project “Ragat Nepal” (Blood Nepal). Butwal Sub-Metropolitan City also collaborated with us in the project supporting us.",
+    "image": "/images/hon_22.jpg"
+  },
+  {
+    "title": "Hero of the Conference ",
+    "date": "27th december 2021",
+    "location": "Interact District Conference",
+    "description": "I was awarded the title of “Hero of the Conference” at the 10th Interact District Conference organised by Interact District 3292 Nepal & Bhutan. This event was supported by Rotary District 3292 Nepal & Bhutan, in presence of Rtn. Rajendra Dhoju - District Governor.",
+    "image": "/images/honors.jpg"
+  },
+  {
+    "title": "Most Innovative Project",
+    "date": "27th december 2021",
+    "location": "Tilottama Municipality Office",
+    "description": "This was awarded by Tilottama Municipality for a project “Ragat Nepal” (Blood Nepal). Tilottama Municipality also collaborated with us in the project supporting us.",
+    "image": "/images/hon_22.jpg"
+  },
+  {
+    "title": "Young Social Activities",
+    "date": "27th december 2021",
+    "location": "Butwal",
+    "description": "I was awarded as Young Social Activities from the former minister of health and environment. This was a 50 week cleaning camp “ Butwal Tinau Cleaning Champaign” ",
+    "image": "/images/honors.jpg"
+  },
+  {
+    "title": "District Level Science and Technology Fair",
+    "date": "27th december 2021",
+    "location": "Butwal Sub-Metropolitan Office",
+    "description": "I won these competitions for 3 years during my high school. We showcased our Robotic Cleaner, Ragat Nepal ( Blood Nepal ),  Study AI-Web in these events. Luckily my team won this for 3 continuous years.",
+    "image": "/images/honors.jpg"
+  }
 ]
