@@ -4,11 +4,13 @@
 
 	import data from '$lib/data/honors.json';
 	import { onMount } from 'svelte';
+	import { activeNav } from '../../store';
 
 	$: honors = data;
 	let main_container: HTMLElement;
 
 	onMount(() => {
+		activeNav.update(() => 'honors');
 		main_container.scrollIntoView();
 	});
 </script>
