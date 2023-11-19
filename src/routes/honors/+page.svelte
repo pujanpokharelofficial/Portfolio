@@ -3,11 +3,17 @@
 	import Honor from './honor.svelte';
 
 	import data from '$lib/data/honors.json';
+	import { onMount } from 'svelte';
 
 	$: honors = data;
+	let main_container: HTMLElement;
+
+	onMount(() => {
+		main_container.scrollIntoView();
+	});
 </script>
 
-<div class="main_container min-h-screen pb-block mt-[200px]">
+<div bind:this={main_container} class="main_container min-h-screen pb-block mt-[200px]">
 	<Header title="honors" />
 	<div class="honors grid gap-standard w-full p-block justify-center">
 		{#each honors as honor}
