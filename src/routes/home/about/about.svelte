@@ -25,7 +25,7 @@
 		<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block pb-block">
 			<!-- left section -->
 			<div class="left_section relative border-gray-light border-r-2 min-w-[30%]">
-				<div class="image relative w-[60%] ml-[25%] mt-[25%] z-30 h-[50%]" />
+				<div class="image relative w-[300px] ml-[25%] mt-[25%] z-30 h-[450px]" />
 				<img
 					class="pattern absolute top-[50%] left-[-10%]"
 					src="/svg/dotted vector black.svg"
@@ -80,16 +80,18 @@
 <style>
 	.image::after,
 	.image::before {
+		--image_width: 400px;
+		--image_height: calc(var(--image_width) * 1.5);
 		content: '';
 		height: 100%;
 		width: 100%;
 		background: url('/images/profile.jpg');
-		background-size: 100% 110%;
+		background-size: var(--image_width) var(--image_height);
 		background-position: center center;
 		position: absolute;
 		right: 0;
 		bottom: 0;
-		border-radius: 25%;
+		border-radius: 200px;
 		z-index: 30;
 	}
 	.image::before {
