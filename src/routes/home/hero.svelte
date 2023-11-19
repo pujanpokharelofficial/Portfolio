@@ -55,7 +55,7 @@
 		</div>
 
 		<!-- right section -->
-		<div class="right_container pr-block h-full bg-gray-extra-light w-[40%] relative">
+		<div class="right_container pr-block pt-block h-full bg-gray-extra-light w-[40%] relative">
 			<div class="image_group w-full h-full flex-1 relative">
 				<div class="image relative w-[50%] ml-[25%] mt-[5%] z-30 h-[50%] rounded-full" />
 				<a
@@ -144,8 +144,8 @@
 	.image::after,
 	.image::before {
 		content: '';
-		height: 100%;
-		width: 100%;
+		height: 430px;
+		width: 280px;
 		background: url('/images/profile.jpg');
 		background-size: 150% 160%;
 		background-position: center center;
