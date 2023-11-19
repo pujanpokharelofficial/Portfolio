@@ -31,6 +31,14 @@ export default {
 				para: '16px',
 				info: '14px',
 				'sub-info': '12px'
+			},
+			screens: {
+				VSM: { min: '320px', max: '639px' },
+				SM: { min: '640px', max: '959px' },
+				MD: { min: '960px', max: '1079px' },
+				SD: { min: '1080px', max: '1270px' },
+				GD: { min: '1280px', max: '1919px' },
+				BD: { min: '1920px', max: '2048px' }
 			}
 		}
 	},
