@@ -1,10 +1,79 @@
 [
-        {
-			"title": "another test activity",
-			"description":"Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work. Here is something that you need to know, How can I work.",
-			"date": "13th jan 2021",
-			"image": "/images/honors.jpg",
-			"location": "Kapilbastu, aashish ko ghar"
-		}
-
+  {
+    "title": "Coding Bootcamps",
+    "description": " 'sharing my knowledge and inspiring others  to embrace their own potential.' This  coding bootcamp was organised under my guidance as a Vice President of the ICT Club of Kalika. We organised 3 day Coding Bootcamps for beginners, student from my own school.",
+    "date": "13th jan 2021",
+    "image": "/images/act_1.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "From Seeds to Shining stars : nurturing the potential of young minds",
+    "description": " This was a keynote session and I was pleased to moderate this effective season with Hon. Biraj Bhakta Shrestha ( Member of house of representative), CEO of Khalti - Digital Wallet, Young Social Activist Kp Khanal, Founder & young researcher Prakriti Dhakal. This event was organised by Interact District 3292 Nepal & Bhutan.",
+    "date": "13th jan 2021",
+    "image": "/images/act_2.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "It's a journey - KeyNote Session",
+    "description": " I was a moderator in this inspiring session with Anil Kesari Shah, A past CEO of Nabil Bank and with Muskan Khatun, Nepalese human rights activist. Their journey through obstacles and challenges were really inspiring for the young individuals.",
+    "date": "13th jan 2021",
+    "image": "/images/act_3.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Robotics Workshop",
+    "description": " This  workshop was organised under my guidance as a Vice President of the ICT Club of Kalika. We organised a 2 day Robotics Workshop for beginners, student from my own school. We shared our knowledge about arduino, bluetooth module, C++ Basics for Arduino, gear motor and many more.",
+    "date": "13th jan 2021",
+    "image": "/images/act_4.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Digital Samvad",
+    "description": " This was a one day event which included a project demonstration, Session about digitalization and Panel Discussion with Ministers, CEO of Tech Company and few individuals. This event was organised in collaboration with the MInistry of Information and technology spreading the importance of digitalization and some information with every individual. Also the best projects were awarded with certificates and some grants.",
+    "date": "13th jan 2021",
+    "image": "/images/act_5.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Robotics Futsal",
+    "description": " This was a District Level Program promoting the culture of robotics and AI in young individuals. We made 2 robots for the player in a small football arena with a goal post and many youth participating found it fun and well as got attracted towards the robotics through the event. We invited the Hon. Mayor of Butwal Sub Metropolitan City Mr. Khelraj Pandey initiated the program by playing the game.",
+    "date": "13th jan 2021",
+    "image": "/images/act_6.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Futurama Ambassador - 2023",
+    "description": " Futurama is an event that offers students the opportunity to explore the latest trends in IT and sustainable Business. At Futurama, you'll have the chance to connect with innovative IT projects from students and young professionals, learn about various fields including Internet of Things (IoT), Multimedia, Artificial Intelligence, Cybersecurity, and many more.",
+    "date": "13th jan 2021",
+    "image": "/images/act_7.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Balancing Passion and Practicality : strategies for pursuing a meaningful career after graduation",
+    "description": " This was a keynote session with CA Manoj Gyawali, A deputy CEO of Nabil Bank and I was a moderator of the session. This was an inspiring session knowing his struggle and difficulties during his journey and a beautiful message for the young individuals to do something and work hard.",
+    "date": "13th jan 2021",
+    "image": "/images/act_11.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Being President of Interact Club Of kalika ",
+    "description": " As the President of the Interact Club of Kalika, a rotary international-based club. I did many community-serving programs and events like distributing warm clothes for needy people, Distributing stationary material in orphanage houses, food, and other equipment for old age people, and Planting and cleaning campaigns contributing from their pocket money and donations.I was awarded as the best president of the year from Interact District 3292 Nepal & Bhutan. Currently, I am at Rotary District 3292 Nepal & Bhutan, RYLA & DICC committee.",
+    "date": "13th jan 2021",
+    "image": "/images/act_8.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "Coding of Social Good Nepal - COSOG ",
+    "description": " As an executive head of Coding of Social Good Club where I got a platform to enlighten my skills. We organised Tech Fest, Coding Bootcamps, Training Session and shared our knowledge with students from other schools as well. Being one of the inspirations of other students to do and utilise their time and skills in some productive field. I used to provide resources and help solve their problems. I  was a mentor for other students who were interested in doing projects and spreading the culture of self research and project work.",
+    "date": "13th jan 2021",
+    "image": "/images/act_12.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  },
+  {
+    "title": "15th Rotary District Conference",
+    "description": "This conference was organised by Rotary District 3292 Nepal & Bhutan, In presence of District Governor, District Team and Past Rotarians. Many individuals were awarded for their great contribution towards community service and for their dedication.",
+    "date": "13th jan 2021",
+    "image": "/images/act_10.jpg",
+    "location": "Kapilbastu, aashish ko ghar"
+  }
 ]
