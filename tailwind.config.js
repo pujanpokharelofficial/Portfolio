@@ -33,11 +33,12 @@ export default {
 				'sub-info': '12px'
 			},
 			screens: {
-				VSM: { min: '320px', max: '639px' },
-				SM: { min: '640px', max: '959px' },
-				MD: { min: '960px', max: '1079px' },
-				SD: { min: '1080px', max: '1270px' },
-				GD: { min: '1280px', max: '1919px' },
+				VSM: { min: '320px', max: '640px' },
+				SM: { min: '640px', max: '960px' },
+				MD: { min: '960px', max: '1080px' },
+				SD: { min: '1080px', max: '1280px' },
+				PD: { min: '1280px', max: '1480px' },
+				GD: { min: '1480px', max: '1480px' },
 				BD: { min: '1920px', max: '2048px' }
 			}
 		}
