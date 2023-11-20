@@ -19,6 +19,26 @@
         I have a passion for fusing technology and innovation to help solve problems in the real world"
 	/>
 	<meta name="keyword" content="portfolio, pujan, pujan Pokharel" />
+	<meta
+		name="keywords"
+		content="Pujan Pokharel, Web Developer, Designer, Portfolio, Contact, Freelancer, Projects, Pujan Pokharel Contact, Contact page"
+	/>
+	<meta property="og:title" content="Pujan Pokharel" />
+	<meta
+		property="og:description"
+		content="Contact Pujan Pokharel for collaborations, projects, or inquiries."
+	/>
+	<meta property="og:image" content="/images/profile.jpg" />
+	<meta property="og:url" content="https://www.pujanpokharel.com.np/contacts/" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Twitter specific meta tags -->
+	<meta name="twitter:title" content="Pujan Pokharel" />
+	<meta
+		name="twitter:description"
+		content="Contact Pujan Pokharel for collaborations, projects, or inquiries."
+	/>
+	<meta name="twitter:image" content="/images/profile.jpg" />
 </svelte:head>
 
 <div class="mt-section flex flex-col space-y-section mb-section">
