@@ -7,7 +7,7 @@
 	let { title, description, image, date, location } = activity;
 </script>
 
-<div class="main_container grid h-[500px] max-w-[1500px]">
+<div class="main_container grid max-h-max max-w-[1500px]">
 	<div
 		class="{(align_right && 'txt_content_right') ||
 			'txt_content'} bg-gray-light flex flex-col space-y-small"
