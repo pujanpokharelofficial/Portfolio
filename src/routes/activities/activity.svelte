@@ -14,11 +14,11 @@
 	>
 		<h1 class="title font-medium text-title text-black-medium">{title}</h1>
 		<div class="location_date font-medium text-info">
-			<p class="location text-blue-light">{date}</p>
-			<p class="text-black-light">{location}</p>
+			<p class="location text-blue-light">{date || ''}</p>
+			<p class="text-black-light">{location || ''}</p>
 		</div>
 		<p class="description text-para text-black-medium font-normal">
-			{description}
+			{description || ''}
 		</p>
 	</div>
 	<div class="{(align_right && 'image_right') || 'image'} h-full">
