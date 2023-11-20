@@ -56,10 +56,12 @@
 
 		<!-- right section -->
 		<div
-			class="right_container pr-block pt-block h-full bg-gray-extra-light w-[40%] max-w-[620px] relative"
+			class="right_container pr-block pt-block SD:px-standard h-full bg-gray-extra-light w-[40%] max-w-[620px] relative"
 		>
 			<div class="image_group w-full h-full flex-1 relative">
-				<div class="image relative w-[50%] ml-[25%] mt-[5%] z-30 h-[50%] rounded-full" />
+				<div
+					class="image relative w-[50%] ml-[25%] mt-[5%] z-30 h-[50%] rounded-full SD:ml-[35%] PD:ml-[25%]"
+				/>
 				<a
 					class="social_link top-[40%] left-[7%] z-40 scale-125 -rotate-[19deg] GD:left-[20%]"
 					href="https://www.facebook.com/OfficialPujanPokharel"
@@ -68,21 +70,21 @@
 					<img src="/images/facebook.png" alt="facebook-icon" />
 				</a>
 				<a
-					class="social_link top-[35%] left-[75%] z-20 scale-125 rotate-[21deg]"
+					class="social_link top-[35%] left-[75%] z-20 scale-125 rotate-[21deg] SD:left-[85%] PD:left-[75%]"
 					href="https://www.linkedin.com/in/pujanpokharelofficial"
 					target="_blank"
 				>
 					<img src="/images/linkedin.png" alt="linkedin-icon" />
 				</a>
 				<a
-					class="social_link top-[30%] left-[7%] PD:left-[5%] GD:left-[15%] z-20 scale-125 -rotate-[28deg]"
+					class="social_link top-[30%] left-[7%] z-20 scale-125 -rotate-[28deg] PD:left-[5%] GD:left-[15%] SD:left-[3%]"
 					href="https://twitter.com/pujanpokharel22"
 					target="_blank"
 				>
 					<img src="/images/twitter.png" alt="twitter-icon" />
 				</a>
 				<a
-					class="social_link top-[25%] left-[75%] z-40 scale-125 -rotate-[12deg]"
+					class="social_link top-[25%] left-[75%] z-40 scale-125 -rotate-[12deg] SD:left-[85%] PD:left-[75%]"
 					href="https://www.instagram.com/pujanpokharelofficial/"
 					target="_blank"
 				>
