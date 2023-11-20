@@ -29,6 +29,6 @@
 <style>
 	.projects {
 		grid-template-columns: repeat(auto-fit, 430px);
-		grid-template-rows: repeat(2, 300px);
+		grid-auto-rows: minmax(300px, 1fr);
 	}
 </style>
