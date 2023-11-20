@@ -14,6 +14,31 @@
 	export let form;
 </script>
 
+<svelte:head>
+	<meta
+		name="keywords"
+		content="Pujan Pokharel, Web Developer, Designer, Portfolio, Contact, Freelancer, Projects, Pujan Pokharel Contact, Contact page"
+	/>
+	<meta property="og:title" content="Pujan Pokharel Contact" />
+	<meta
+		property="og:description"
+		content="Contact Pujan Pokharel for collaborations, projects, or inquiries."
+	/>
+	<meta property="og:image" content="/images/profile.jpg" />
+	<meta property="og:url" content="https://www.pujanpokharel.com.np/contacts/" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Twitter specific meta tags -->
+	<meta name="twitter:title" content="Pujan Pokharel || Connect" />
+	<meta
+		name="twitter:description"
+		content="Contact Pujan Pokharel for collaborations, projects, or inquiries."
+	/>
+	<meta name="twitter:image" content="/images/profile.jpg" />
+
+	<title>Contacts || Pujan Pokharel</title>
+</svelte:head>
+
 <div
 	class="main_container mt-[100px] p-block max-w-[800px] min-h-screen flex space-y-block flex-col m-auto"
 	bind:this={main_container}
