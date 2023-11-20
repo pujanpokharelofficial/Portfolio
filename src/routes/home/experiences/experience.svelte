@@ -36,7 +36,7 @@
 			<div class="location text-black-light">{location}</div>
 		</div>
 		<div class="description mt-small text-sub-title text-black-medium font-medium w-[100%]">
-			{description}
+			{description || ''}
 		</div>
 	</div>
 </div>
