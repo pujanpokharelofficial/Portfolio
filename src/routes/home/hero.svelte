@@ -121,7 +121,7 @@
 					<img class="arrow_right" src="/svg/right-arrow-small.svg" alt="right arrow" />
 				</a>
 
-				<a class="support_me border-b-gray-light py-standard" href="#openMail" on:click={openMail}>
+				<a class="support_me border-b-gray-light py-standard" href="https://www.buymeacoffee.com/pujanpokharelofficial" >
 					<div class="flex space-x-small">
 						<img class="support_icon" src="/svg/short-small.svg" alt="Support icon" />
 						<span>Support me with my work</span>
