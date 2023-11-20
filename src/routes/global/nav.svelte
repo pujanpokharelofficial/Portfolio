@@ -11,8 +11,10 @@
 		'contact me': '/contacts'
 	};
 
+	$: side_navOpen = false;
 	function updateNavActive(activeItem) {
 		activeNav.update(() => activeItem);
+		side_navOpen = !side_navOpen;
 	}
 </script>
 
@@ -43,8 +45,21 @@
 		<span class="text-blue-dark uppercase text-[14px] ml-[10px]"> download cv </span>
 	</a>
 
+	<!-- side navigation for small screen -->
+	<button
+		on:click={() => {
+			side_navOpen = !side_navOpen;
+		}}
+	>
+		<img
+			src={(side_navOpen && '/svg/ham-close.svg') || '/svg/ham-open.svg'}
+			alt="side nav tgl btn"
+			class="closer"
+		/>
+	</button>
 	<div
-		class="side_nav absolute w-max right-0 top-[100px] h-screen p-block flex flex-col items-center justify-between"
+		class="side_nav absolute w-max {(side_navOpen && 'right-[0px] opacity-100') ||
+			'right-[-800px] opacity-20'} top-[100px] p-block flex flex-col justify-between"
 	>
 		<div class="navlinks uppercase text-info text-black-light flex flex-col space-y-standard">
 			{#each Object.entries(navlinks) as [displayName, href]}
@@ -74,5 +89,9 @@
 	.side_nav {
 		background: rgba(255, 255, 255, 0.8);
 		backdrop-filter: blur(20px);
+	}
+	.side_nav {
+		transition: 0.25s ease-in-out all;
+		height: calc(100vh - 100px);
 	}
 </style>
