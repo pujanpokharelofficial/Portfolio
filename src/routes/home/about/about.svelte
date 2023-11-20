@@ -22,10 +22,14 @@
 >
 	<div class="main_container min-h-screen w-full flex flex-col space-y-block" id="about">
 		<Header title="About me" />
-		<div class="content border-gray-light border-b-2 h-full w-full flex space-x-block pb-block">
+		<div
+			class="border-gray-light border-b-2 h-full w-full flex space-x-block pb-block GD:w-max GD:m-auto"
+		>
 			<!-- left section -->
-			<div class="left_section relative border-gray-light border-r-2 w-[30%] min-w-[450px]">
-				<div class="image relative w-[300px] ml-[25%] mt-[25%] z-30 h-[450px]" />
+			<div
+				class="left_section relative border-gray-light border-r-2 w-[30%] min-w-[450px] max-w-[440px]"
+			>
+				<div class="image relative w-[300px] ml-[25%] mt-[25%] z-30 h-[450px] SD:ml-[20%]" />
 				<img
 					class="pattern absolute top-[50%] left-[-10%]"
 					src="/svg/dotted vector black.svg"
@@ -33,8 +37,8 @@
 				/>
 			</div>
 			<!-- Right section -->
-			<div class="right_section max-w-70% pr-block flex flex-col space-y-block items-center">
-				<div class="short_intro w-[80%]">
+			<div class="right_section pr-block flex flex-col space-y-block items-center max-w-[1000px]">
+				<div class="short_intro w-[80%] SD:w-[90%]">
 					<h1
 						class="title tracking-widest uppercase text-blue-extra-light font-black text-heading relative max-w-max"
 					>
@@ -60,7 +64,7 @@
 					</div>
 				</div>
 
-				<div class="hall_of_frame w-[80%]">
+				<div class="hall_of_frame w-[80%] SD:w-[90%]">
 					<h1
 						class="title tracking-widest uppercase text-blue-extra-light font-black text-heading relative max-w-max"
 					>
