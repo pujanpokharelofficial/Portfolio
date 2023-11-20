@@ -10,3 +10,8 @@
     font-family: 'Inter', sans-serif; 
     scroll-behavior: smooth;
 }
+
+
+body{
+    overflow-x: hidden;
+}
