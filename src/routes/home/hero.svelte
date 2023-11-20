@@ -14,9 +14,9 @@
 		activeNav.update(() => 'home');
 	}}
 >
-	<div class="main_container h-screen w-screen flex" id="home">
+	<div class="main_container h-screen w-full flex justify-between max-h-[1200px]" id="home">
 		<!-- left section -->
-		<div class="left_section w-[60%] h-full pl-block">
+		<div class="left_section w-[60%] h-full pl-block max-w-[1200px]">
 			<div class="h-max w-full mt-[15%]">
 				<div class="flex items-center space-x-small">
 					<img src="/svg/quote.svg" alt="quote-icon" />
@@ -55,11 +55,13 @@
 		</div>
 
 		<!-- right section -->
-		<div class="right_container pr-block pt-block h-full bg-gray-extra-light w-[40%] relative">
+		<div
+			class="right_container pr-block pt-block h-full bg-gray-extra-light w-[40%] max-w-[620px] relative"
+		>
 			<div class="image_group w-full h-full flex-1 relative">
 				<div class="image relative w-[50%] ml-[25%] mt-[5%] z-30 h-[50%] rounded-full" />
 				<a
-					class="social_link top-[40%] left-[20%] z-40 scale-125 -rotate-[19deg]"
+					class="social_link top-[40%] left-[7%] z-40 scale-125 -rotate-[19deg] GD:left-[20%]"
 					href="https://www.facebook.com/OfficialPujanPokharel"
 					target="_blank"
 				>
@@ -73,7 +75,7 @@
 					<img src="/images/linkedin.png" alt="linkedin-icon" />
 				</a>
 				<a
-					class="social_link top-[30%] left-[18%] z-20 scale-125 -rotate-[28deg]"
+					class="social_link top-[30%] left-[7%] PD:left-[5%] GD:left-[15%] z-20 scale-125 -rotate-[28deg]"
 					href="https://twitter.com/pujanpokharel22"
 					target="_blank"
 				>
