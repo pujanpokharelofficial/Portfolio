@@ -50,6 +50,7 @@
 		on:click={() => {
 			side_navOpen = !side_navOpen;
 		}}
+		class="SD:hidden block"
 	>
 		<img
 			src={(side_navOpen && '/svg/ham-close.svg') || '/svg/ham-open.svg'}
@@ -59,7 +60,7 @@
 	</button>
 	<div
 		class="side_nav absolute w-max {(side_navOpen && 'right-[0px] opacity-100') ||
-			'right-[-800px] opacity-20'} top-[100px] p-block flex flex-col justify-between"
+			'right-[-800px] opacity-20'} top-[100px] p-block flex flex-col justify-between SD:hidden"
 	>
 		<div class="navlinks uppercase text-info text-black-light flex flex-col space-y-standard">
 			{#each Object.entries(navlinks) as [displayName, href]}
