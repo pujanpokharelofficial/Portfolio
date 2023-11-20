@@ -37,7 +37,7 @@
 		content="Contact Pujan Pokharel for collaborations, projects, or inquiries."
 	/>
 	<meta property="og:image" content="/images/profile.jpg" />
-	<meta property="og:url" content="https://www.pujanpokharel.com.np/contacts/" />
+	<meta property="og:url" content="https://www.pujanpokharel.com.np/activities/" />
 	<meta name="twitter:card" content="summary_large_image" />
 
 	<!-- Twitter specific meta tags -->
@@ -48,6 +48,7 @@
 	/>
 	<meta name="twitter:image" content="/images/profile.jpg" />
 </svelte:head>
+
 <div bind:this={main_container} class="main_container mt-[200px]">
 	<Header title="activities" />
 	<div class="activities w-full h-max p-block flex flex-col space-y-block items-center">
