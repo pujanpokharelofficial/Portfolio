@@ -20,7 +20,7 @@
 	class="nav h-[100px] w-full px-block flex justify-between items-center border-b-2 border-gray-light fixed top-0 left-0 z-50"
 >
 	<a href="/#home" class="logo text-title font-bold">Pujan Pokharel</a>
-	<div class="navlinks uppercase text-info text-black-light flex space-x-standard">
+	<div class="navlinks uppercase text-info text-black-light flex space-x-small PD:space-x-standard">
 		{#each Object.entries(navlinks) as [displayName, href]}
 			<a
 				class={(displayName == $activeNav && 'text-blue-dark font-medium') ||
