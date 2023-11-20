@@ -44,11 +44,9 @@
 	</a>
 
 	<div
-		class="side_nav absolute w-full bg-red-300 left-0 top-0 h-screen p-block hidden flex-col justify-between"
+		class="side_nav absolute w-max right-0 top-[100px] h-screen p-block flex flex-col items-center justify-between"
 	>
-		<div
-			class="navlinks uppercase text-info text-black-light flex space-x-small PD:space-x-standard"
-		>
+		<div class="navlinks uppercase text-info text-black-light flex flex-col space-y-standard">
 			{#each Object.entries(navlinks) as [displayName, href]}
 				<a
 					class={(displayName == $activeNav && 'text-blue-dark font-medium') ||
@@ -72,7 +70,8 @@
 </nav>
 
 <style>
-	nav {
+	nav,
+	.side_nav {
 		background: rgba(255, 255, 255, 0.8);
 		backdrop-filter: blur(20px);
 	}
