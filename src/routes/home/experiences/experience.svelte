@@ -2,14 +2,14 @@
 	import type { Texperience } from './type.ts';
 
 	export let align_right = true;
-	export let data: Texperience;
+	export let data;
 	let { date, duration, title, location, description, type } = data;
 	let iconOptions = {
 		'new-position': 'star',
 		promotion: 'graduation',
 		award: 'trophy'
 	};
-	let icon = iconOptions[type];
+	let icon = iconOptions[type as 'new-position' | 'promotion' | 'award'];
 </script>
 
 <div class="main_container grid gap-[30px]">

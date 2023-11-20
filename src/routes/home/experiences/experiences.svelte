@@ -11,7 +11,7 @@
 
 <Scrolltracker
 	toObserve={'#experiences'}
-	top="-600"
+	top={-600}
 	action={() => {
 		activeNav.update(() => 'experiences');
 	}}

@@ -10,7 +10,7 @@
 
 <Scrolltracker
 	toObserve={'#activities'}
-	top="-600"
+	top={-600}
 	action={() => {
 		activeNav.update(() => 'activities');
 	}}
