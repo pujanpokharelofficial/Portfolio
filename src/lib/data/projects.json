@@ -8,42 +8,42 @@
     {
 		"title": "Unified Medial System",
 		"description":"E-Med Nepal is a platform which helps to centralize the medical reports of a patient which can only be accessible by Hospital which will further give clarity to the doctors about the existing medical history of the patient.",
-		"icon": "/svg/blog-small.svg",
+		"icon": "/images/med.png",
 		"link": "https://e-med-nepal.vercel.app/"
 	},
 
     {
 		"title": "Satellite Tracker ",
 		"description":"The International Space Station Tracker is an exciting project that emerged from the NASA Space App Challenge 2022, developed by me and my talented team. This innovative app utilizes cutting-edge technology, including 3.js, and incorporates detailed 3D models of the International Space Station (ISS) and the Earth. With this app, users can track the real-time position and trajectory of the ISS as it orbits the Earth, providing a captivating and educational experience.",
-		"icon": "/svg/blog-small.svg",
+		"icon": "/images/space2.png",
 		"link": "https://satellite-isstracker.netlify.app/"
 	},
 
     {
 		"title": "Yatru - Space Travel ",
 		"description":"Welcome to the Yaatru- Planet Tourism Office, your one-stop destination for celestial exploration and unforgettable interstellar journeys. Our office is designed to provide information, inspiration, and booking services for travelers seeking to experience the wonders of space. Whether you dream of walking on the Martian surface, witnessing the rings of Saturn up close, or experiencing the beauty of a distant exoplanet, we're here to make your cosmic dreams a reality.",
-		"icon": "/svg/blog-small.svg",
+		"icon": "/images/space1.png",
 		"link": "https://yaatru.vercel.app/"
 	},
 
     {
 		"title": "Cattle Care",
-		"description":"Welcome to the Yaatru- Planet Tourism Office, your one-stop destination for celestial exploration and unforgettable interstellar journeys. Our office is designed to provide information, inspiration, and booking services for travelers seeking to experience the wonders of space. Whether you dream of walking on the Martian surface, witnessing the rings of Saturn up close, or experiencing the beauty of a distant exoplanet, we're here to make your cosmic dreams a reality.",
-		"icon": "/svg/blog-small.svg",
-		"link": "https://github.com/sarojregmi200/Highlighter"
+		"description":"CattleCare, the all-in-one solution for managing and tracking your cattle. With features like insurance management, vaccination scheduling, breeding management, milk production tracking, and disease management, CattleCare makes it easy to keep your animals healthy and productive. Say goodbye to scattered records and hello to streamlined Resources",
+		"icon": "/images/cattle-care.png",
+		"link": "https://github.com/sarojregmi200/cattle-care"
 	},
 
     {
 		"title": "HIGHLIGHTER",
-		"description":"Welcome to the Yaatru- Planet Tourism Office, your one-stop destination for celestial exploration and unforgettable interstellar journeys. Our office is designed to provide information, inspiration, and booking services for travelers seeking to experience the wonders of space. Whether you dream of walking on the Martian surface, witnessing the rings of Saturn up close, or experiencing the beauty of a distant exoplanet, we're here to make your cosmic dreams a reality.",
-		"icon": "/svg/blog-small.svg",
+		"description":"A web app with extension that will let you highlight anything and let store it in a way you can remember. ",
+		"icon": "/svg/highlighter.svg",
 		"link": "https://github.com/sarojregmi200/Highlighter"
 	},
 
     {
-		"title": "ENV",
-		"description":"Welcome to the Yaatru- Planet Tourism Office, your one-stop destination for celestial exploration and unforgettable interstellar journeys. Our office is designed to provide information, inspiration, and booking services for travelers seeking to experience the wonders of space. Whether you dream of walking on the Martian surface, witnessing the rings of Saturn up close, or experiencing the beauty of a distant exoplanet, we're here to make your cosmic dreams a reality.",
-		"icon": "/svg/blog-small.svg",
-		"link": "https://github.com/sarojregmi200/Highlighter"
+		"title": "ENV Dost",
+		"description":"A cli tool (friend) to securely store your config/env files with ease & retrive easily regardless of the work machine. Be at work or home machine sync and update env files with ease with just 1-3 commands at max. Manage your env files with the security of 1password.",
+		"icon": "/images/envdost.png",
+		"link": "https://github.com/sarojregmi200/envdost"
 	}
 ]
