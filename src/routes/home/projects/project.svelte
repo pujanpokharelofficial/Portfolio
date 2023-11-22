@@ -14,7 +14,7 @@
 			href={link}
 			class="viewall h-max w-max px-standard py-small rounded-full text-white font-semibold text-para bg-blue-light uppercase opacity-0 group-hover:opacity-100"
 		>
-			view all
+			View
 		</a>
 	</div>
 	<div class="txt_content text-black-medium mt-standard">
